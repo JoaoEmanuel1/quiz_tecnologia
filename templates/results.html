@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="results-container">
+    <h1>Resultado Final</h1>
+    
+    <div class="score-display">
+        Você acertou <span class="highlight">{{ score }}</span> de <span class="highlight">{{ total }}</span> perguntas!
+    </div>
+    
+    <div class="percentage">
+        {{ "%.0f"|format((score / total) * 100) }}%
+    </div>
+    
+    <a href="{{ url_for('home') }}" class="restart-btn">Jogar Novamente</a>
+</div>
+{% endblock %}

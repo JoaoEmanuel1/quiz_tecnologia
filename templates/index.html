@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="start-container">
+    <h1>Quiz Game</h1>
+    <p class="description">Teste seus conhecimentos com este quiz de 10 perguntas!</p>
+    
+    <div class="game-info">
+        <div class="info-card">
+            <i class="icon">📚</i>
+            <h3>10 Perguntas</h3>
+            <p>Diversos temas para desafiar você</p>
+        </div>
+        <div class="info-card">
+            <i class="icon">⏱️</i>
+            <h3>Sem tempo</h3>
+            <p>Responda no seu ritmo</p>
+        </div>
+        <div class="info-card">
+            <i class="icon">🏆</i>
+            <h3>Desafie-se</h3>
+            <p>Veja seu resultado no final</p>
+        </div>
+    </div>
+    
+    <a href="{{ url_for('start') }}" class="start-btn">Iniciar Quiz</a>
+</div>
+{% endblock %}
