@@ -1,5 +1,8 @@
-🧠 Python Quiz Web App <br/>  
+🧠 Python Quiz Web App <br/><br/>
 
+PARA UTILIZAR ACESSE: <br/>
+https://quiztecnologia.pythonanywhere.com/ 
+<br/><br/>
 Um projeto de aplicação web de Quiz utilizando Python e Flask. O objetivo é testar conhecimentos básicos em Python por meio de perguntas de múltipla escolha. <br/><br/> <br/>
 
 🚀 Funcionalidades:  <br/>
