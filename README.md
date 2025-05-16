@@ -2,6 +2,9 @@
 
 Um projeto de aplicação web de Quiz utilizando Python e Flask. O objetivo é testar conhecimentos básicos em Python por meio de perguntas de múltipla escolha.  
 
+
+
+
 🚀 Funcionalidades:  
 
 -Interface web simples e funcional com Flask
@@ -13,6 +16,8 @@ Um projeto de aplicação web de Quiz utilizando Python e Flask. O objetivo é t
 -Exibição de resultado final ao término do quiz  
 
 
+
+
 🧪 Tecnologias Utilizadas:  
 
 -Python 3
@@ -20,6 +25,9 @@ Um projeto de aplicação web de Quiz utilizando Python e Flask. O objetivo é t
 -Flask
 
 -HTML + Jinja2 (via Flask Templates)
+
+
+
 
 ⚙️ Como Executar Localmente:
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/JoaoEmanuel1/quiz_tecnologia.git)
@@ -31,6 +39,8 @@ pip install -r requirements.txt
 python app.py
 
 Acesse no navegador: http://127.0.0.1:5000/
+
+
 
 
 Este projeto está licenciado sob a MIT License.
