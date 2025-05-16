@@ -1,52 +1,53 @@
+#questões utilizadas no quiz
 questions = [
     {
-        'question': 'Qual palavra-chave é usada para herança em Java?',
-        'options': ['include', 'inherit', 'extends', 'implements', 'super'],
-        'answer': 'extends'
+        'question': 'Qual destas opções é usada para criar uma função em Python?',
+        'options': ['defun', 'define', 'function', 'def', 'func'],
+        'answer': 'def'
     },
     {
-        'question': 'Qual das opções abaixo é um tipo primitivo em Java?',
-        'options': ['String', 'Integer', 'char', 'Double', 'Boolean'],
-        'answer': 'char'
+        'question': 'Qual é o resultado da expressão 2 ** 3 em Python?',
+        'options': ['5', '6', '8', '9', '23'],
+        'answer': '8'
     },
     {
-        'question': 'Qual é a saída do código: System.out.println(3 + 4 + "Java"); ?',
-        'options': ['Java34', '7Java', '34Java', 'Java7', 'JavaJava'],
-        'answer': '7Java'
+        'question': 'Qual destas estruturas é usada para repetição com número definido de vezes?',
+        'options': ['if', 'while', 'repeat', 'loop', 'for'],
+        'answer': 'for'
     },
     {
-        'question': 'Qual interface é usada para implementar uma fila (queue) em Java?',
-        'options': ['List', 'Deque', 'Queue', 'Set', 'Map'],
-        'answer': 'Queue'
+        'question': 'O que o código print(type(3.14)) imprime?',
+        'options': ['<type: float>', "<class 'int'>", 'float', "<class 'float'>", 'number'],
+        'answer': "<class 'float'>"
     },
     {
-        'question': 'O que acontece se você tentar acessar um índice fora dos limites de um array?',
-        'options': ['O compilador ignora o erro', 'O Java corrige automaticamente', 'Lança uma exceção ArrayIndexOutOfBoundsException', 'Retorna null', 'O programa trava o sistema'],
-        'answer': 'Lança uma exceção ArrayIndexOutOfBoundsException'
+        'question': 'Qual destas é uma forma correta de criar uma lista em Python?',
+        'options': ['lista = list[1, 2, 3]', 'lista = (1, 2, 3)', 'lista = {1, 2, 3}', 'lista = [1, 2, 3]', 'lista = <1, 2, 3>'],
+        'answer': 'lista = [1, 2, 3]'
     },
     {
-        'question': 'Qual é o modificador de acesso mais restritivo?',
-        'options': ['public', 'protected', 'default ', 'private', 'final'],
-        'answer': 'private'
+        'question': 'O que a função len() retorna?',
+        'options': ['A soma dos elementos de uma lista', 'O último elemento de um objeto', 'O número de caracteres ou itens', 'O tipo do objeto', 'A média dos elementos'],
+        'answer': 'O número de caracteres ou itens'
     },
     {
-        'question': ' Qual é o resultado de 10 / 3 em Java com tipos inteiros?',
-        'options': ['3.333', '3.0', '3', '3.3333', 'Erro de compilação'],
-        'answer': '3'
+        'question': 'Como se declara um comentário de uma linha em Python?',
+        'options': ['// Comentário', '/* Comentário */', '# Comentário', '-- Comentário', "# Comentário"],
+        'answer': '# Comentário'
     },
     {
-        'question': 'Qual das opções é uma interface funcional (funcionalidade do Java 8)?',
-        'options': ['ArrayList', 'Runnable', 'Scanner', 'BufferedReader', 'Thread'],
-        'answer': 'Runnable'
+        'question': 'Qual comando é usado para importar bibliotecas em Python?',
+        'options': ['include', 'import', 'using', 'require', 'library'],
+        'answer': 'import'
     },
     {
-        'question': 'Qual das opções permite criar uma thread em Java?',
-        'options': ['Estendendo a classe Object', 'Implementando a interface Threadable', 'Usando a classe Runnable', 'Chamando main() duas vezes', 'Criando um novo System'],
-        'answer': 'Usando a classe Runnable'
+        'question': 'Qual das alternativas representa um dicionário em Python?',
+        'options': ["[1: 'um', 2: 'dois']", '{1, 2, 3}', "{1: 'um', 2: 'dois'}", "(1: 'um', 2: 'dois')", "<1: 'um', 2: 'dois'>"],
+        'answer': "{1: 'um', 2: 'dois'}"
     },
     {
-        'question': 'Qual das opções abaixo não é um tipo de exceção verificada (checked exception)?',
-        'options': ['IOException', 'SQLException', 'FileNotFoundException', 'NullPointerException', 'ParseException'],
-        'answer': 'NullPointerException'
+        'question': 'Qual é o valor de bool([]) em Python?',
+        'options': ['True', 'False', 'None', '0', 'Error'],
+        'answer': 'False'
     }
 ]

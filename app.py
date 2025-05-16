@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 app.secret_key = '427623'
 
-# Renderiza a tela inicial 
+# renderiza a página inicial 
 @app.route('/')
 def home():
     return render_template('index.html')
